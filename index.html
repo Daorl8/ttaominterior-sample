@@ -10,7 +10,7 @@
 <meta property="og:locale" content="ko_KR" />
 <meta property="og:site_name" content="TTAOM DESIGN" />
 <meta property="og:title" content="따옴 인테리어 · 주거 · 상업공간 인테리어 디자인 스튜디오" />
-<meta property="og:description" content="동탄 · 광교 직영점에서 상담합니다. 온라인 견적문의와 전화 상담." />
+<meta property="og:description" content="손끝까지 정성스럽게. 동탄 네일 · 젤 케어, 네이버 예약으로 편하게 방문하세요." />
 <meta property="og:url" content="https://ttaominterior-sample.lgt3232.workers.dev/" />
 <meta property="og:image" content="https://ttaominterior-sample.lgt3232.workers.dev/og-ttaom.jpg" />
 <meta property="og:image:width" content="1200" />
@@ -118,7 +118,7 @@ button{ font:inherit; color:inherit; }
 .recent span{ color:var(--soft); }
 .recent time{ font-family:var(--serif); color:var(--soft); }
 @media (min-width:900px){ .recent time{ text-align:right; } }
-.recent-note{ margin-top:14px; font-size:.9rem; color:var(--soft); }
+.recent-note{ margin-top:14px; font-size:.9rem; color:#959592; }
 
 /* 서비스 */
 .services{ display:grid; gap:16px; margin-top:8px; }
@@ -199,7 +199,7 @@ button{ font:inherit; color:inherit; }
       <div class="side reveal">
         <p>동탄점과 광교점, 두 곳의 직영점에서 상담합니다. 온라인 견적문의나 전화로 먼저 연락 주세요.</p>
         <div class="cta">
-          <a class="btn fill" href="https://naver.me/IDFTjpAU" target="_blank" rel="noopener">온라인 견적문의</a>
+          <a class="btn fill" href="https://m.blog.naver.com/ttaomdesign7" target="_blank" rel="noopener">온라인 견적문의</a>
           <a class="btn" href="tel:01083216666">전화 상담</a>
         </div>
       </div>
@@ -290,7 +290,7 @@ button{ font:inherit; color:inherit; }
             <div><dt>주소</dt><dd>경기 수원시 센트럴파크로127번길 20</dd></div>
             <div><dt>전화</dt><dd><a href="tel:01083216666">010-8321-6666</a></dd></div>
           </dl>
-          <iframe class="map" title="따옴 인테리어 광교점 지도" src="https://www.google.com/maps?q=%EA%B2%BD%EA%B8%B0%20%EC%88%98%EC%9B%90%EC%8B%9C%20%EC%84%BC%ED%8A%B8%EB%9F%B4%ED%8C%8C%ED%81%AC%EB%A1%9C127%EB%B2%88%EA%B8%B8%2020&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <iframe class="map" style="min-width:420px" title="따옴 인테리어 광교점 지도" src="https://www.google.com/maps?q=%EA%B2%BD%EA%B8%B0%20%EC%88%98%EC%9B%90%EC%8B%9C%20%EC%84%BC%ED%8A%B8%EB%9F%B4%ED%8C%8C%ED%81%AC%EB%A1%9C127%EB%B2%88%EA%B8%B8%2020&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
       </div>
     </div>
@@ -301,7 +301,7 @@ button{ font:inherit; color:inherit; }
   <div class="wrap">
     <span class="brand">TTAOM DESIGN</span>
     <p>따옴 인테리어 · 주거 · 상업공간 전문 인테리어 디자인 스튜디오</p>
-    <p>동탄점 경기 화성시 동탄기흥로 520번가길 4-6, 1층 · 광교점 경기 수원시 센트럴파크로127번길 20</p>
+    <p>동탄점 경기 화성시 동탄기흥로 502번가길 4-6, 1층 · 광교점 경기 수원시 센트럴파크로127번길 20</p>
     <p>010-8321-6666 · @ttaom_interior_design · © TTAOM DESIGN</p>
   </div>
 </footer>
@@ -318,7 +318,6 @@ button{ font:inherit; color:inherit; }
   var btn=document.querySelector('.menu-btn'), mnav=document.getElementById('m-nav');
   function setMenu(open){ mnav.classList.toggle('open',open); btn.setAttribute('aria-expanded',open?'true':'false'); }
   btn.addEventListener('click',function(){ setMenu(!mnav.classList.contains('open')); });
-  [].forEach.call(mnav.querySelectorAll('a'),function(a){ a.addEventListener('click',function(){ setMenu(false); }); });
   /* 리빌: 사진 로드 후 페이드 + 폰트 준비 후 시작 */
   function show(el){
     if(el._wait) return;
