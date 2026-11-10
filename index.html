@@ -1,0 +1,370 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>따옴 인테리어 TTAOM DESIGN | 동탄 · 광교 주거 · 상업공간 인테리어</title>
+<meta name="description" content="주거 · 상업공간 전문 인테리어 디자인 스튜디오 따옴 인테리어. 동탄점 · 광교점 직영. 온라인 견적문의 · 전화 상담 010-8321-6666." />
+<link rel="canonical" href="https://ttaominterior-sample.lgt3232.workers.dev/" />
+<meta property="og:type" content="website" />
+<meta property="og:locale" content="ko_KR" />
+<meta property="og:site_name" content="TTAOM DESIGN" />
+<meta property="og:title" content="따옴 인테리어 · 주거 · 상업공간 인테리어 디자인 스튜디오" />
+<meta property="og:description" content="동탄 · 광교 직영점에서 상담합니다. 온라인 견적문의와 전화 상담." />
+<meta property="og:url" content="https://ttaominterior-sample.lgt3232.workers.dev/" />
+<meta property="og:image" content="https://ttaominterior-sample.lgt3232.workers.dev/og-ttaom.jpg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="theme-color" content="#F5F5F3" />
+<link rel="icon" href="favicon.png" type="image/png" />
+<link rel="preload" href="tt-cormorant.woff2" as="font" type="font/woff2" crossorigin />
+<link rel="preload" href="tt-pretendard.woff2" as="font" type="font/woff2" crossorigin />
+<link rel="preload" href="tt-hero.webp" as="image" />
+<!-- 시안 도메인 = ttaominterior-sample.lgt3232.workers.dev. 고객 인계 시 grep lgt3232 → canonical·og:url·og:image·JSON-LD url/image 치환 -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    { "@type": "HomeAndConstructionBusiness", "name": "따옴 인테리어 동탄점", "url": "https://ttaominterior-sample.lgt3232.workers.dev/", "image": "https://ttaominterior-sample.lgt3232.workers.dev/og-ttaom.jpg", "telephone": "+82-10-8321-6666",
+      "address": { "@type": "PostalAddress", "streetAddress": "동탄기흥로 520번가길 4-6, 1층", "addressLocality": "화성시", "addressRegion": "경기도", "addressCountry": "KR" },
+      "sameAs": ["https://www.instagram.com/ttaom_interior_design/"] },
+    { "@type": "HomeAndConstructionBusiness", "name": "따옴 인테리어 광교점", "url": "https://ttaominterior-sample.lgt3232.workers.dev/", "telephone": "+82-10-8321-6666",
+      "address": { "@type": "PostalAddress", "streetAddress": "센트럴파크로127번길 20", "addressLocality": "수원시", "addressRegion": "경기도", "addressCountry": "KR" } }
+  ]
+}
+</script>
+<style>
+@font-face{ font-family:"TT Serif"; font-weight:400 600; font-display:swap; src:url("tt-cormorant.woff2") format("woff2"); }
+@font-face{ font-family:"TT Sans"; font-weight:300 600; font-display:swap; src:url("tt-pretendard.woff2") format("woff2"); }
+
+:root{
+  --paper:#F5F5F3;       /* 중성 (시공 사진의 흰 벽) */
+  --paper-2:#ECECE9;
+  --ink:#1E1E1C;         /* 15.3:1 */
+  --soft:#5C5C59;        /* 6.2:1 · 띠 위 5.7:1 */
+  --line:#D8D8D4;
+  --dark:#1E1E1C;
+  --dark-soft:#B4B4B0;   /* 8.0:1 */
+  --serif:"TT Serif","TT Sans",Georgia,"Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --sans:"TT Sans",-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --wrap:1200px;
+  --r:2px;
+}
+*,*::before,*::after{ box-sizing:border-box; }
+html{ -webkit-text-size-adjust:100%; }
+body{ margin:0; background:var(--paper); color:var(--ink); font-family:var(--sans); font-size:16px; line-height:1.8; word-break:keep-all; overflow-wrap:break-word; }
+img{ max-width:100%; height:auto; display:block; }
+a{ color:inherit; text-decoration:none; }
+h1,h2,h3,p{ margin:0; }
+button{ font:inherit; color:inherit; }
+:focus-visible{ outline:2px solid var(--ink); outline-offset:3px; }
+.wrap{ width:min(100% - 40px, var(--wrap)); margin:0 auto; }
+.sec{ padding:96px 0; }
+@media (min-width:900px){ .sec{ padding:140px 0; } }
+.alt{ background:var(--paper-2); }
+
+.label{ font-family:var(--serif); font-weight:500; font-size:1.05rem; letter-spacing:.24em; text-transform:uppercase; color:var(--soft); }
+.h2{ margin-top:14px; font-weight:300; font-size:clamp(1.9rem,4.4vw,2.8rem); line-height:1.4; letter-spacing:-.02em; }
+.desc{ margin-top:16px; max-width:34em; color:var(--soft); font-size:1.02rem; }
+
+.btn{ display:inline-flex; align-items:center; justify-content:center; min-height:52px; padding:0 26px; border:1px solid var(--ink); border-radius:var(--r); font-size:.95rem; font-weight:500; transition:background .2s ease, color .2s ease, transform .15s ease; }
+.btn.fill{ background:var(--ink); color:var(--paper); }
+.btn:active{ transform:scale(.98); }
+@media (hover:hover){ .btn:not(.fill):hover{ background:var(--ink); color:var(--paper); } .btn.fill:hover{ background:#3A3A37; border-color:#3A3A37; } }
+
+/* 헤더 */
+.site-head{ position:sticky; top:0; z-index:50; background:rgba(245,245,243,.96); border-bottom:1px solid var(--line); }
+.site-head .wrap{ display:flex; align-items:center; justify-content:space-between; gap:16px; min-height:66px; }
+@media (min-width:900px){ .site-head .wrap{ display:grid; grid-template-columns:minmax(0,1fr) auto minmax(0,1fr); gap:24px; } .head-cta{ justify-self:end; } }
+.brand{ font-family:var(--serif); font-weight:500; font-size:1.2rem; letter-spacing:.28em; white-space:nowrap; }
+.nav{ display:none; gap:32px; font-size:.95rem; }
+@media (min-width:900px){ .nav{ display:flex; } }
+@media (hover:hover){ .nav a:hover{ color:var(--soft); } }
+.head-cta{ min-height:40px; padding:0 18px; font-size:.86rem; }
+@media (max-width:899px){ .head-cta{ display:none; } }
+.menu-btn{ display:inline-flex; align-items:center; gap:8px; min-height:44px; padding:0 4px; background:none; border:0; font-size:.92rem; cursor:pointer; }
+.menu-btn i{ display:block; width:20px; height:1px; background:var(--ink); box-shadow:0 6px 0 var(--ink), 0 -6px 0 var(--ink); }
+@media (min-width:900px){ .menu-btn{ display:none; } }
+.m-nav{ display:none; position:fixed; left:0; right:0; top:67px; z-index:49; background:var(--paper); border-bottom:1px solid var(--line); padding:8px 20px 20px; }
+.m-nav.open{ display:block; }
+.m-nav a{ display:block; padding:14px 0; border-bottom:1px solid var(--line); font-size:1.05rem; }
+@media (min-width:900px){ .m-nav{ display:none !important; } }
+
+/* 히어로 */
+.hero{ position:relative; }
+.hero .photo img{ width:100%; aspect-ratio:4/3; object-fit:cover; }
+@media (min-width:900px){ .hero .photo img{ aspect-ratio:21/9; } }
+.hero .text{ padding:44px 0 88px; }
+@media (min-width:900px){ .hero .text{ display:grid; grid-template-columns:minmax(0,7fr) minmax(0,5fr); gap:64px; align-items:end; padding:72px 0 120px; } }
+.hero .mark{ font-family:var(--serif); font-weight:500; font-size:clamp(2.4rem,7vw,5rem); line-height:1; letter-spacing:.18em; }
+.hero h1{ margin-top:20px; font-weight:300; font-size:clamp(1.4rem,3vw,1.9rem); line-height:1.5; letter-spacing:-.01em; }
+.hero .side p{ color:var(--soft); }
+.hero .cta{ display:flex; flex-wrap:wrap; gap:10px; margin-top:24px; }
+
+/* 포트폴리오 */
+.head{ display:grid; gap:6px; margin-bottom:48px; }
+@media (min-width:900px){ .head{ grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:64px; align-items:end; margin-bottom:60px; } .head .desc{ justify-self:end; margin-top:0; } }
+.works{ display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; }
+@media (min-width:900px){ .works{ grid-template-columns:repeat(3,minmax(0,1fr)); gap:18px; } }
+.works img{ width:100%; aspect-ratio:4/3; object-fit:cover; border-radius:var(--r); }
+
+/* 최근 시공 목록 */
+.recent{ margin-top:56px; border-top:1px solid var(--ink); }
+.recent li{ display:grid; grid-template-columns:minmax(0,1fr); gap:2px; padding:18px 0; border-bottom:1px solid var(--line); }
+@media (min-width:900px){ .recent li{ grid-template-columns:minmax(0,1fr) minmax(0,1fr) 120px; gap:24px; align-items:baseline; } }
+.recent ul{ margin:0; padding:0; list-style:none; }
+.recent b{ font-weight:500; font-size:1.08rem; }
+.recent span{ color:var(--soft); }
+.recent time{ font-family:var(--serif); color:var(--soft); }
+@media (min-width:900px){ .recent time{ text-align:right; } }
+.recent-note{ margin-top:14px; font-size:.9rem; color:var(--soft); }
+
+/* 서비스 */
+.services{ display:grid; gap:16px; margin-top:8px; }
+@media (min-width:900px){ .services{ grid-template-columns:repeat(2,minmax(0,1fr)); gap:24px; } }
+.svc{ padding:32px 28px; background:var(--paper); border:1px solid var(--line); border-radius:var(--r); }
+.svc .no{ font-family:var(--serif); font-size:1.1rem; letter-spacing:.2em; color:var(--soft); }
+.svc h3{ margin-top:12px; font-weight:400; font-size:1.5rem; }
+.svc p{ margin-top:10px; color:var(--soft); }
+
+/* 상담 */
+.contact{ background:var(--dark); color:var(--paper); }
+.contact .label{ color:var(--dark-soft); }
+.contact .desc{ color:var(--dark-soft); }
+.channels{ display:grid; gap:12px; margin-top:44px; }
+@media (min-width:900px){ .channels{ grid-template-columns:repeat(3,minmax(0,1fr)); gap:18px; } }
+.ch{ display:block; padding:26px 24px; border:1px solid #4A4A47; border-radius:var(--r); transition:border-color .2s ease, background .2s ease; }
+@media (hover:hover){ .ch:hover{ border-color:var(--paper); background:#2A2A28; } }
+.ch small{ display:block; font-family:var(--serif); letter-spacing:.2em; color:var(--dark-soft); }
+.ch b{ display:block; margin-top:8px; font-weight:500; font-size:1.25rem; }
+.ch span{ display:block; margin-top:4px; font-size:.92rem; color:var(--dark-soft); }
+.more{ margin-top:22px; font-size:.92rem; color:var(--dark-soft); }
+.more a{ text-decoration:underline; text-underline-offset:3px; color:var(--paper); }
+
+/* 매장 (R-1: 모바일 지도 1열 전체 폭) */
+.stores{ display:grid; gap:40px; }
+@media (min-width:768px){ .stores{ grid-template-columns:repeat(2,minmax(0,1fr)); gap:28px; } }
+.store h3{ font-weight:400; font-size:1.5rem; }
+.store h3 small{ margin-left:10px; font-family:var(--serif); font-size:1rem; letter-spacing:.2em; color:var(--soft); }
+.store dl{ margin:18px 0 0; border-top:1px solid var(--ink); }
+.store dl div{ display:grid; grid-template-columns:64px minmax(0,1fr); gap:12px; padding:13px 0; border-bottom:1px solid var(--line); }
+.store dt{ font-weight:500; }
+.store dd{ margin:0; color:var(--soft); }
+.store .map{ display:block; width:100%; height:260px; margin-top:18px; border:0; border-radius:var(--r); background:var(--paper-2); }
+@media (min-width:768px){ .store .map{ height:300px; } }
+
+/* 푸터 */
+.foot{ border-top:1px solid var(--line); padding:56px 0 calc(110px + env(safe-area-inset-bottom)); font-size:.88rem; color:var(--soft); }
+@media (min-width:900px){ .foot{ padding:64px 0; } }
+.foot .brand{ display:block; color:var(--ink); }
+.foot p{ margin-top:10px; }
+.foot p + p{ margin-top:4px; }
+
+/* 모바일 하단 바 (불투명) */
+.quick{ position:fixed; left:0; right:0; bottom:0; z-index:60; display:grid; grid-template-columns:minmax(0,1.4fr) minmax(0,1fr) minmax(0,1fr); gap:6px; padding:8px 10px calc(8px + env(safe-area-inset-bottom)); background:var(--paper); border-top:1px solid var(--line); }
+.quick a{ display:flex; align-items:center; justify-content:center; min-height:48px; border:1px solid var(--ink); border-radius:var(--r); font-size:.9rem; font-weight:500; background:var(--paper); }
+.quick a.fill{ background:var(--ink); color:var(--paper); }
+@media (min-width:900px){ .quick{ display:none; } }
+
+/* 리빌: 사진 로드 후 페이드 (setInterval) */
+.js .reveal{ opacity:0; transform:translateY(14px); transition:opacity .7s ease, transform .7s ease; }
+.js .reveal.in{ opacity:1; transform:none; }
+@media print{ .js .reveal{ opacity:1; transform:none; } }
+</style>
+<noscript><style>.reveal{ opacity:1 !important; transform:none !important; }</style></noscript>
+<script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+<header class="site-head">
+  <div class="wrap">
+    <a class="brand" href="#top" aria-label="따옴 인테리어 처음으로">TTAOM DESIGN</a>
+    <nav class="nav" aria-label="주요 메뉴"><a href="#works">포트폴리오</a><a href="#services">서비스</a><a href="#contact">상담</a><a href="#stores">매장</a></nav>
+    <a class="btn fill head-cta" href="https://naver.me/IDFTjpAU" target="_blank" rel="noopener">온라인 견적문의</a>
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="m-nav"><i aria-hidden="true"></i>메뉴</button>
+  </div>
+</header>
+<nav class="m-nav" id="m-nav" aria-label="모바일 메뉴">
+  <a href="#works">포트폴리오</a><a href="#services">서비스</a><a href="#contact">상담</a><a href="#stores">매장</a>
+</nav>
+
+<main id="top">
+  <section class="hero">
+    <div class="photo reveal"><img src="tt-hero.webp" alt="밝은 원목 바닥과 흰 벽의 거실과 다이닝" width="1600" height="1067" fetchpriority="high" /></div>
+    <div class="wrap text">
+      <div class="reveal">
+        <p class="mark">TTAOM</p>
+        <h1>주거 · 상업공간 전문<br />인테리어 디자인 스튜디오</h1>
+      </div>
+      <div class="side reveal">
+        <p>동탄점과 광교점, 두 곳의 직영점에서 상담합니다. 온라인 견적문의나 전화로 먼저 연락 주세요.</p>
+        <div class="cta">
+          <a class="btn fill" href="https://naver.me/IDFTjpAU" target="_blank" rel="noopener">온라인 견적문의</a>
+          <a class="btn" href="tel:01083216666">전화 상담</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec alt" id="works" aria-labelledby="works-h">
+    <div class="wrap">
+      <div class="head reveal">
+        <div><p class="label">Portfolio</p><h2 id="works-h" class="h2">완성된 공간</h2></div>
+        <p class="desc">따옴 인테리어가 시공한 집들입니다.</p>
+      </div>
+      <div class="works">
+        <img class="reveal" loading="lazy" src="tt-work-01.webp" alt="흰 소파와 원목 바닥의 거실에서 본 주방" width="1000" height="667" />
+        <img class="reveal" loading="lazy" src="tt-work-02.webp" alt="둥근 식탁과 흰 수납장이 있는 다이닝" width="1000" height="667" />
+        <img class="reveal" loading="lazy" src="tt-work-03.webp" alt="캐멀 소파가 놓인 넓은 거실" width="1000" height="750" />
+        <img class="reveal" loading="lazy" src="tt-work-04.webp" alt="긴 아일랜드와 원목 식탁이 있는 주방" width="1000" height="750" />
+        <img class="reveal" loading="lazy" src="tt-work-05.webp" alt="거실에서 이어지는 다이닝과 아치 벽" width="1000" height="671" />
+        <img class="reveal" loading="lazy" src="tt-work-06.webp" alt="흰 상하부장으로 짠 ㄱ자 주방" width="1000" height="666" />
+        <img class="reveal" loading="lazy" src="tt-work-07.webp" alt="회색 소파와 짙은 식탁이 놓인 거실" width="1000" height="751" />
+        <img class="reveal" loading="lazy" src="tt-work-08.webp" alt="원목 아일랜드와 흰 키큰장의 주방" width="1000" height="1333" />
+        <img class="reveal" loading="lazy" src="tt-work-09.webp" alt="원목 살 중문이 있는 현관 복도" width="1000" height="1333" />
+        <img class="reveal" loading="lazy" src="tt-work-10.webp" alt="원목 타일과 둥근 거울의 욕실" width="1000" height="1333" />
+        <img class="reveal" loading="lazy" src="tt-work-11.webp" alt="원목 식탁이 놓인 밝은 다이닝" width="1000" height="667" />
+        <img class="reveal" loading="lazy" src="tt-work-12.webp" alt="원목 하부장 아일랜드와 후드" width="1000" height="667" />
+      </div>
+      <div class="recent reveal">
+        <ul>
+          <li><b>단 하나뿐인 럭셔리 스테이</b><span>수지 정자뜰마을태영데시앙</span><time datetime="2026-11">2026.11</time></li>
+          <li><b>눈을 맞추며 요리하는 곳</b><span>광교더힐</span><time datetime="2026-10">2026.10</time></li>
+          <li><b>가장 우아한 홈 갤러리</b><span>영통 SK뷰</span><time datetime="2026-09">2026.09</time></li>
+          <li><b>빛이 체류하는 자리</b><span>반도유보라4차</span><time datetime="2026-08">2026.08</time></li>
+          <li><b>캐멀의 깊이를 더하다</b><span>동탄역센트럴예미지</span><time datetime="2026-07">2026.07</time></li>
+          <li><b>Sweet kitchen</b><span>신봉마을자이2차</span><time datetime="2026-07">2026.07</time></li>
+        </ul>
+        <p class="recent-note">최근 인스타그램에 올린 시공 사례(게시월 기준) · 더 많은 사례는 인스타그램과 오늘의집에서 볼 수 있어요.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" id="services" aria-labelledby="services-h">
+    <div class="wrap">
+      <div class="head reveal">
+        <div><p class="label">Services</p><h2 id="services-h" class="h2">주거와 상업공간</h2></div>
+        <p class="desc">두 분야 모두 디자인부터 시공까지 상담합니다.</p>
+      </div>
+      <div class="services">
+        <div class="svc reveal"><p class="no">01 RESIDENTIAL</p><h3>주거 공간</h3><p>살림과 동선을 담는 집 인테리어</p></div>
+        <div class="svc reveal"><p class="no">02 COMMERCIAL</p><h3>상업 공간</h3><p>브랜드와 손님을 생각하는 공간 인테리어</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec contact" id="contact" aria-labelledby="contact-h">
+    <div class="wrap">
+      <div class="reveal">
+        <p class="label">Contact</p>
+        <h2 id="contact-h" class="h2">상담 문의</h2>
+        <p class="desc">원하는 방법으로 편하게 연락 주세요.</p>
+      </div>
+      <div class="channels">
+        <a class="ch reveal" href="https://naver.me/IDFTjpAU" target="_blank" rel="noopener"><small>ONLINE</small><b>온라인 견적문의</b><span>네이버 폼으로 접수</span></a>
+        <a class="ch reveal" href="tel:01083216666"><small>CALL</small><b>010-8321-6666</b><span>전화 상담</span></a>
+        <a class="ch reveal" href="https://www.instagram.com/ttaom_interior_design/" target="_blank" rel="noopener"><small>INSTAGRAM</small><b>@ttaom_interior_design</b><span>DM 문의 · 시공 사례</span></a>
+      </div>
+      <p class="more reveal">시공 이야기는 <a href="https://m.blog.naver.com/ttaomdesign7" target="_blank" rel="noopener">블로그</a>, 전문가 프로필은 <a href="https://ohou.se/experts/myhome/19147638" target="_blank" rel="noopener">오늘의집</a>에서도 볼 수 있어요.</p>
+    </div>
+  </section>
+
+  <section class="sec alt" id="stores" aria-labelledby="stores-h">
+    <div class="wrap">
+      <div class="head reveal">
+        <div><p class="label">Stores</p><h2 id="stores-h" class="h2">직영 매장</h2></div>
+        <p class="desc">두 직영점 모두 같은 번호로 상담합니다.</p>
+      </div>
+      <div class="stores">
+        <div class="store reveal">
+          <h3>동탄점<small>DONGTAN</small></h3>
+          <dl>
+            <div><dt>주소</dt><dd>경기 화성시 동탄기흥로 520번가길 4-6, 1층</dd></div>
+            <div><dt>전화</dt><dd><a href="tel:01083216666">010-8321-6666</a></dd></div>
+          </dl>
+          <iframe class="map" title="따옴 인테리어 동탄점 지도" src="https://www.google.com/maps?q=%EA%B2%BD%EA%B8%B0%20%ED%99%94%EC%84%B1%EC%8B%9C%20%EB%8F%99%ED%83%84%EA%B8%B0%ED%9D%A5%EB%A1%9C%20520%EB%B2%88%EA%B0%80%EA%B8%B8%204-6&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="store reveal">
+          <h3>광교점<small>GWANGGYO</small></h3>
+          <dl>
+            <div><dt>주소</dt><dd>경기 수원시 센트럴파크로127번길 20</dd></div>
+            <div><dt>전화</dt><dd><a href="tel:01083216666">010-8321-6666</a></dd></div>
+          </dl>
+          <iframe class="map" title="따옴 인테리어 광교점 지도" src="https://www.google.com/maps?q=%EA%B2%BD%EA%B8%B0%20%EC%88%98%EC%9B%90%EC%8B%9C%20%EC%84%BC%ED%8A%B8%EB%9F%B4%ED%8C%8C%ED%81%AC%EB%A1%9C127%EB%B2%88%EA%B8%B8%2020&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <span class="brand">TTAOM DESIGN</span>
+    <p>따옴 인테리어 · 주거 · 상업공간 전문 인테리어 디자인 스튜디오</p>
+    <p>동탄점 경기 화성시 동탄기흥로 520번가길 4-6, 1층 · 광교점 경기 수원시 센트럴파크로127번길 20</p>
+    <p>010-8321-6666 · @ttaom_interior_design · © TTAOM DESIGN</p>
+  </div>
+</footer>
+
+<nav class="quick" aria-label="빠른 연결">
+  <a class="fill" href="https://naver.me/IDFTjpAU" target="_blank" rel="noopener">견적문의</a>
+  <a href="tel:01083216666">전화</a>
+  <a href="https://www.instagram.com/ttaom_interior_design/" target="_blank" rel="noopener">인스타</a>
+</nav>
+
+<script>
+(function(){
+  /* 모바일 메뉴 */
+  var btn=document.querySelector('.menu-btn'), mnav=document.getElementById('m-nav');
+  function setMenu(open){ mnav.classList.toggle('open',open); btn.setAttribute('aria-expanded',open?'true':'false'); }
+  btn.addEventListener('click',function(){ setMenu(!mnav.classList.contains('open')); });
+  [].forEach.call(mnav.querySelectorAll('a'),function(a){ a.addEventListener('click',function(){ setMenu(false); }); });
+  /* 리빌: 사진 로드 후 페이드 + 폰트 준비 후 시작 */
+  function show(el){
+    if(el._wait) return;
+    var imgs=el.tagName==='IMG'?[el]:[].slice.call(el.querySelectorAll('img'));
+    var left=imgs.filter(function(i){ return !i.complete; });
+    if(!left.length){ el.classList.add('in'); return; }
+    el._wait=true; var n=left.length;
+    var fin=function(){ if(--n<=0) el.classList.add('in'); };
+    left.forEach(function(i){
+      if(i.loading==='lazy') i.loading='eager';
+      i.addEventListener('load',fin,{once:true}); i.addEventListener('error',fin,{once:true});
+    });
+    setTimeout(function(){ el.classList.add('in'); },2500);
+  }
+  var pending=[].slice.call(document.querySelectorAll('.reveal'));
+  function tick(){
+    if(!pending.length){ clearInterval(t); return; }
+    if(window.innerHeight + window.pageYOffset >= document.documentElement.scrollHeight - 4){
+      pending.forEach(show); pending=[]; return;
+    }
+    var line=window.innerHeight*0.92;
+    pending=pending.filter(function(el){
+      if(el.getBoundingClientRect().top < line){ show(el); return false; }
+      return true;
+    });
+  }
+  var t, started=false;
+  function start(){ if(started) return; started=true; tick(); t=setInterval(tick,120); }
+  if(document.fonts && document.fonts.ready){ document.fonts.ready.then(start); }
+  setTimeout(start,1200);
+  /* 앵커 스크롤 */
+  var head=document.querySelector('.site-head');
+  [].forEach.call(document.querySelectorAll('a[href^="#"]'),function(a){
+    a.addEventListener('click',function(e){
+      var id=a.getAttribute('href'); var el=id==='#top'?document.body:document.querySelector(id);
+      if(!el) return; e.preventDefault();
+      var s0=window.pageYOffset, end=id==='#top'?0:el.getBoundingClientRect().top+s0-head.offsetHeight+1;
+      var t0=Date.now(), dur=560;
+      var iv=setInterval(function(){
+        var p=Math.min((Date.now()-t0)/dur,1), e2=p<.5?2*p*p:1-Math.pow(-2*p+2,2)/2;
+        window.scrollTo(0,s0+(end-s0)*e2);
+        if(p>=1) clearInterval(iv);
+      },16);
+    });
+  });
+})();
+</script>
+</body>
+</html>
